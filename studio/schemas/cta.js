@@ -40,7 +40,6 @@ export default {
         },
       ],
     },
-
     {
       title: "CTA text",
       name: "columnButtonText",
