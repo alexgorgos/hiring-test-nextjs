@@ -1,0 +1,144 @@
+:root {
+  --primaryFont: "Josefin Sans", sans-serif;
+  --secondaryFont: Audrey, sans-serif;
+
+  --baseFontSize: 16px;
+  --baseFontWeight: 400;
+  --baseLineHeight: 1.6;
+
+  --baseline: 24px;
+
+  /* Color palette */
+  --01: #03110e;
+  --02: #ffffff;
+  --03: #c4ebf8;
+  --04: #b14f25;
+  --05: #b11823;
+}
+
+/* Typography */
+
+html,
+body {
+  font-family: var(--primaryFont);
+  font-size: var(--baseFontSize);
+  color: var(--01);
+}
+
+h1 {
+  font-family: var(--secondaryFont);
+  font-size: clamp(2rem, 2.5vw + 1rem, 2.5rem);
+  font-weight: 400;
+  letter-spacing: 11px;
+  line-height: 1.2;
+  text-transform: uppercase;
+}
+
+h2 {
+  font-family: var(--primaryFont);
+  font-size: clamp(2.25rem, 2.5vw + 1rem, 2.875rem);
+  font-weight: 600;
+  letter-spacing: -1px;
+  line-height: 1.18;
+}
+
+h3 {
+  font-family: var(--secondaryFont);
+  font-size: clamp(1.25rem, 2.5vw + 1rem, 1.375rem);
+  font-weight: 400;
+  letter-spacing: 10px;
+  line-height: 1.6;
+  text-transform: uppercase;
+}
+
+h4 {
+  font-family: var(--secondaryFont);
+  font-size: clamp(1.1875rem, 2.5vw + 1rem, 1.375rem);
+  font-weight: 400;
+  font-style: italic;
+  letter-spacing: 5px;
+  line-height: 1.2;
+  text-transform: uppercase;
+}
+
+h5 {
+  font-family: var(--secondaryFont);
+  font-size: clamp(0.9375rem, 2.5vw + 1rem, 1rem);
+  font-weight: 400;
+  letter-spacing: 8px;
+  line-height: 1.19;
+  text-transform: uppercase;
+}
+
+label {
+  font-family: var(--secondaryFont);
+  font-size: clamp(0.875rem, 2.5vw + 1rem, 1rem);
+  font-weight: 700;
+  font-style: italic;
+  letter-spacing: 8px;
+  text-transform: uppercase;
+}
+
+footer {
+  font-family: var(--primaryFont);
+  font-size: clamp(0.875rem, 2.5vw + 1rem, 1rem);
+  font-weight: 700;
+  line-height: 1;
+  letter-spacing: 3px;
+  text-transform: uppercase;
+}
+
+p {
+  font-family: var(--primaryFont);
+  font-size: clamp(1rem, 2.5vw + 1rem, 1.125rem);
+  font-size: 400;
+  line-height: 1.6;
+}
+
+.button {
+  font-family: var(--primaryFont);
+  font-weight: 600;
+  font-size: 0.81rem;
+  line-height: 1;
+  text-decoration: none;
+}
+
+.button.small {
+  font-size: 0.6875rem;
+}
+
+.navItem {
+  font-family: var(--primaryFont);
+  font-weight: 700;
+  font-size: 0.75rem;
+  line-height: 1;
+  letter-spacing: 3px;
+  text-transform: uppercase;
+  text-decoration: none;
+}
+
+a,
+a:visited {
+  color: inherit;
+  text-decoration: none;
+}
+
+/* Spacing */
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+.content {
+  padding: 0 10vw;
+}
+
+nav .item {
+  padding: 52px 0;
+}
+
+.button {
+  padding: 14px 32px 12px;
+}

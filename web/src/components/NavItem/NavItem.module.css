@@ -1,0 +1,12 @@
+.wrapper {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 52px 0;
+  gap: 10px;
+}
+
+.active {
+  text-decoration: underline;
+}

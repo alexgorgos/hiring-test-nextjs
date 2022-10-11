@@ -1,0 +1,36 @@
+.footer {
+  background-color: var(--01);
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: center;
+  padding: 5.5rem 5rem;
+}
+
+.logo {
+  background-color: var(--01);
+}
+
+.links {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+  gap: 54px;
+  color: var(--02);
+  flex-grow: 1;
+}
+
+@media (max-width: 768px) {
+  .footer {
+    flex-direction: column;
+    gap: 48px;
+    justify-content: center;
+    align-items: center;
+    padding: 5em 1em;
+  }
+  .links {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+}

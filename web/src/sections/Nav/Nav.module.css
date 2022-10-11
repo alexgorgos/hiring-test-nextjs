@@ -1,0 +1,58 @@
+.nav {
+  display: flex;
+  justify-content: center;
+  background-color: var(--03);
+}
+
+.mobileLogo,
+.menuButton {
+  display: none;
+}
+
+.navBar {
+  list-style: none;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: flex-start;
+  gap: 76px;
+}
+
+@media (max-width: 768px) {
+  .desktopLogo {
+    display: none;
+  }
+
+  .mobileLogo,
+  .menuButton {
+    display: flex;
+  }
+
+  .menuButton {
+    background-color: var(--2);
+    border: 0;
+    text-transform: uppercase;
+  }
+
+  .nav {
+    flex-wrap: wrap;
+    background-color: var(--02);
+    justify-content: space-between;
+    align-items: center;
+    padding: 2vh 0;
+  }
+
+  .navBar {
+    margin-top: 2vh;
+    flex-direction: column;
+    row-gap: 0;
+    flex-basis: 100%;
+    background-color: var(--03);
+    padding-left: 2rem;
+    transition: all 0.2s ease-out;
+  }
+
+  .hideMenu {
+    display: none;
+  }
+}
