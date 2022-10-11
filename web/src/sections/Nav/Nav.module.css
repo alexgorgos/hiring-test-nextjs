@@ -30,6 +30,7 @@
 
   .menuButton {
     background-color: var(--2);
+    color: var(--1);
     border: 0;
     text-transform: uppercase;
   }

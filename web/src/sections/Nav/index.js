@@ -31,7 +31,7 @@ const Nav = () => {
         onClick={() => setShowMobileNav(!showMobileNav)}
         className={`button ${styles.menuButton}`}
       >
-        menu
+        {showMobileNav ? "x" : "menu"}
       </button>
       <ul
         className={`${styles.navBar} ${showMobileNav ? "" : styles.hideMenu}`}
