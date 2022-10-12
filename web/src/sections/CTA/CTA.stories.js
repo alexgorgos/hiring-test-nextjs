@@ -16,8 +16,12 @@ Default.args = {
     columnUrl: "/#",
     columnUrlDescription: "Go to commercial page",
     columnHeading: "Keep on",
-    columnImageUrl: "/assets/Caravan-Orange-R-2.png",
-    columnImageAlt: "the blue caravan, by Planet Caravan",
+    columnImage: {
+      asset: {
+        url: "/assets/Caravan-Orange-R-2.png",
+      },
+      columnImageAlt: "the blue caravan, by Planet Caravan",
+    },
     columnTextColor: "#03110E",
     columnButtonText: "commercial",
     columnArrowDirection: "left",
@@ -27,8 +31,12 @@ Default.args = {
     columnUrl: "/#",
     columnUrlDescription: "Go to tourers page",
     columnHeading: "exploring",
-    columnImageUrl: "/assets/Caravan-Red-R-1.png",
-    columnImageAlt: "the red caravan, by Planet Caravan",
+    columnImage: {
+      asset: {
+        url: "/assets/Caravan-Red-R-1.png",
+      },
+      columnImageAlt: "the blue caravan, by Planet Caravan",
+    },
     columnTextColor: "#FFFFFF",
     columnButtonText: "tourers",
     columnArrowDirection: "right",

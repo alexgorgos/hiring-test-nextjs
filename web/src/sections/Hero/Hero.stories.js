@@ -21,14 +21,32 @@ Default.args = {
     {
       name: "Planet 23",
       price: 25932,
-      imageUrl: "/assets/Caravan-Red-R.png",
-      imageAlt: "Planet 23 Red Caravand - by Planet Caravan",
+      image: {
+        asset: {
+          url: "/assets/Caravan-Red-R.png",
+        },
+        imageAlt: "Planet 23 Red Caravand - by Planet Caravan",
+      },
     },
     {
       name: "Planet 24",
       price: 50000,
-      imageUrl: "/assets/Caravan-White-R.png",
-      imageAlt: "Planet 24 Red Caravand - by Planet Caravan",
+      image: {
+        asset: {
+          url: "/assets/Caravan-White-R.png",
+        },
+        imageAlt: "Planet 24 Red Caravand - by Planet Caravan",
+      },
+    },
+    {
+      name: "Planet 23",
+      price: 25932,
+      image: {
+        asset: {
+          url: "/assets/Caravan-Red-R.png",
+        },
+        imageAlt: "Planet 23 Red Caravand - by Planet Caravan",
+      },
     },
   ],
 };

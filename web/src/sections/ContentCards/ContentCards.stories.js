@@ -20,8 +20,12 @@ Default.args = {
       buttonUrl: "/#",
       buttonDescription: "go to the products page",
       hoverBgColor: "#C4EBF8",
-      imageUrl: "/assets/Caravan-Orange-R-2.png",
-      imageAlt: "blue caravan, by Planet caravan",
+      image: {
+        asset: {
+          url: "/assets/Caravan-Orange-R-2.png",
+        },
+        imageAlt: "blue caravan, by Planet caravan",
+      },
     },
     {
       heading: "tourers",
@@ -30,8 +34,12 @@ Default.args = {
       buttonUrl: "/#",
       buttonDescription: "go to the tourers page",
       hoverBgColor: "#B14F25",
-      imageUrl: "/assets/Caravan-Orange-R-1.png",
-      imageAlt: " orange caravan, by Planet caravan",
+      image: {
+        asset: {
+          url: "/assets/Caravan-Orange-R-1.png",
+        },
+        imageAlt: " orange caravan, by Planet caravan",
+      },
     },
   ],
 };

@@ -11,6 +11,10 @@ const Template = (args) => <ContentImage {...args} />;
 
 export const Default = Template.bind({});
 Default.args = {
-  imageUrl: "/assets/L26204032.png",
-  imageAlt: "caravan at the beatch",
+  image: {
+    asset: {
+      url: "/assets/L26204032.png",
+    },
+    imageAlt: "caravan at the beatch",
+  },
 };
