@@ -37,7 +37,6 @@ const Nav = () => {
         className={`${styles.navBar} ${showMobileNav ? "" : styles.hideMenu}`}
       >
         <li>
-          {console.log(navitems[0].url)}
           <NavItem itemName={navitems[0].name} itemUrl={navitems[0].url} />
         </li>
         <li>
